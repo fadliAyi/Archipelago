@@ -39,3 +39,7 @@ GROUP BY
 ORDER BY 
     OrderCount DESC, FirstOrder ASC;
 ```
+
+### How to run real time chat websocket
+1. run websocket server first in real-time-chat folder with command ``` npx ts-node src/app.ts ```
+2. run frontend server in real-time-chat-frontend folder with command ``` npm run serve ```
